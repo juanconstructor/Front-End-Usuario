@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+    margin: 50px 100px;
+    }
+form {
+    margin-bottom: 20px;
+    }
+h1, h2 {
+color: black;
+margin: -50px;
+    }
+
+.contenido{
+
+    margin: 50px;
+}
+    
+.Cuadrot{
+    background-color: #FFF0F5;
+    width: 1200px;
+    height: 200px;
+    }
+    
+    
+.botone{
+    background-color: #7B68EE;
+    width: 90px;
+    height: 40px;
+    color: #ffff;
+    margin: 0px 1110px;
+    }
+    
+.link{
+    color: black;
+    }
+    
+    
+.modal {
+    display: none;
+    position: relative;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 200px;
+    padding: 50px 400px 50px 400px;
+    margin: 0px;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    }
+    
+.modal-content {
+    background-color: #F0FFFF;
+    margin: 15% auto;
+    padding: 30px;
+    width: 100px;
+    text-align: center;
+    }
+    
+.continue-button {
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: #7B68EE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    }
+    
+.continue-button:hover {
+    opacity: 1;
+    }

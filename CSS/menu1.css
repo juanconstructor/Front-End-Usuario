@@ -1,0 +1,16 @@
+.container .col p{
+    font-size: 20px;
+}
+
+.boton{
+    display: block;
+    width: 90px;
+    font-family: arial;
+    border-radius:5px;
+    padding: 8px;
+    background-color: #7B68EE; 
+    color: #ffff;
+    text-decoration: none;
+    margin: 0px 1020px;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+.all{
+    background-color:#D9D9D9;
+}
+
+.caja{
+    margin: 100px;
+    padding: 200px 80px;
+    text-align: center;
+    font-family: Arial;
+    border-radius: 10px solid #000000;
+    background-color: #ffff;
+}
+
+
+.texto-t{
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+.texto-p{
+    margin: 40px 50px;
+    padding: 0px 180px;
+}
+

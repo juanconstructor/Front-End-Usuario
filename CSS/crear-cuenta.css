@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.all{
+    background-color:#D9D9D9;
+    margin: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    text-align: center;
+    padding: 160px 200px;
+}
+
+form .title{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+form label{
+    margin-bottom: 30px;
+}
+
+form label input{
+    border-radius: 20px;
+    background-color: #FFF0F5;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+
+form label input::placeholder{
+    color: black;
+}
+
+form .link{
+    color: black;
+    margin: 15px;
+}
+
+form #button{
+    color: #ffffff;
+    background-color: #7B68EE;
+    padding: 8px 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form .boton{
+    text-decoration: none;
+    color: #ffffff
+}
+
+.modal {
+    display: none;
+    position: relative;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 200px;
+    padding: 50px 400px 50px 400px;
+    margin: 0px;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #F0FFFF;
+    margin: 15% auto;
+    padding: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+.continue-button {
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: #7B68EE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+}
