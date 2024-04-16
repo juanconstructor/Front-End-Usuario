@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/crear-cuenta.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="iconos/Logo MB.svg">
+    <title>Crear cuenta</title>
+</head>
+<body class="all">
+            <form action="">
+                <h1 class="title">Nueva cuenta</h1>
+                <label>
+                    <input placeholder="Nombre y apellido" type="text" id="name">
+                    <input placeholder="Nombre de usuario"  type="text" id="">
+                </label>
+                <label>
+                    <input placeholder="Contraseña" type="password" id="password">
+                    <input placeholder="Confirmar contraseña" type="password" id="password1">
+                </label>
+                <div>
+                    <button id="button" onclick="openModal()">
+                    <a href="#" class="boton">Continuar</a>
+                    </button>
+
+                    <button id="button">
+                        <a href="iniciar-sesión.html" class="boton">Volver</a>
+                        </button>
+                    </div>
+                    <div>
+                    <div id="successModal" class="modal">
+                    <div class="modal-content">
+                        <p id="successMessage">La cuenta ha sido creada correctamente</p>
+                        <div>
+                        <button id="continueButton" class="continue-button">Continuar</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+    <script src="js/nueva.cuenta.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="CSS/contactenos.css">
+<link rel="stylesheet" href="CSS/inicio.css">
+<link rel="icon" href="iconos/Logo MB.svg">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<title>Contátenos</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Menú1.html">Menú</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="comunidad.html">Comunidad</a></li>
+                <li class="nav-item dropdown ms-5 me-5">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Opciones
+                    </a>
+                    <ul class="dropdown-menu ms-5">
+                      <li><a class="dropdown-item" href="#">Contáctenos</a></li>
+                      <li><a class="dropdown-item" href="Cerrar sesión.html">Cerrar sesión</a></li>
+                    </ul>
+                  </li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+<main class="contenido">
+<h1>Contáctenos</h1>
+<form id="contact-form">
+    <label for="request-type">Tipo de solicitud</label>
+    <select id="request-type" name="request-type">
+        <option value="suggestion">Sugerencia</option>
+        <option value="congratulations">Felicitaciones</option>
+        <option value="observations">Queja</option>
+    </select>
+    <br>
+    <br>
+    <h3>Observaciones</h3>
+    <br>
+    <textarea class="Cuadrot" id="observation" name="observation"></textarea>
+    <br>
+    <br>
+    <button class="botone">Enviar</button>
+</form>
+<br>
+<h4>Visítanos</h4>
+<a href="#" class="link">Barrio Tintal</a>
+<br>
+<br>
+<a href="#" class="link">Barrio Ciudad Verde</a>
+
+<div>
+<div id="successModal" class="modal">
+    <div class="modal-content">
+        <p id="successMessage">Tu mensaje ha sido enviado correctamente</p>
+        <div>
+        <a href="contactenos.html"><button id="continueButton" class="continue-button">Continuar</button></a>
+
+        </div>
+    </div>
+</div>
+</div>
+
+</main>
+
+
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure class="iconos">
+                <a href="#">
+                    <img src="iconos/1.png" alt="" class="logo">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h4>Contáctenos</h4>
+            <ul>
+                <li><a href="#">Línea de atención: 601-7894526</a></li>
+                <li><a href="#">Escribenos a Whatsapp: 3175894162</a></li>
+                <li><a href="#">Email: muybravo@gmail.com</a></li>
+                <li><a href="#">Carrera 24 # 17 - 180 Bogotá D.C</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h4>Sobre nosotros</h4>
+            <ul>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Referidos</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h4>Ayuda</h4>
+            <ul>
+                <li><a href="#">Centro de ayuda</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+<script src="js/contactenos.js"></script>
+</body>
+</html>
